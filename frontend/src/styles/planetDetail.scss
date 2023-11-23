@@ -1,0 +1,35 @@
+.planet-details {
+    border: 2px solid black;
+    width: 40%;
+    border-radius: 20px;
+    margin-top: 48px;
+    margin-inline: auto;
+    text-align: center;
+    
+    
+    li {
+        img {
+            width: 100%;
+            border-radius: 20px;
+        }
+    }
+}
+.planet-name{
+
+    p{
+        display: flex;
+        align-content: center;
+       justify-content: center;
+       margin-bottom: 3rem;
+        font-size: 100%;
+        color: rgb(255, 255, 255);
+    }
+}
+
+.home-page_ul span{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 2rem;
+
+}

@@ -1,0 +1,62 @@
+
+.planet-form {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6rem;
+  background-color: #333;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 300px;
+  
+  .button {
+    width: 100%;
+    background-color: #0022fff7; /* Couleur de fond rouge */
+    color: #ffffff; /* Couleur du texte en blanc */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px 10px;
+    transition: background-color 0.2s; /* Transition pour l'effet de hover */
+  
+    &:hover {
+      background-color: #3633ff; /* Couleur de fond rouge légèrement plus claire au survol */
+    }
+  }
+}
+
+.planet-form h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.planet-form form {
+
+  gap: 10px;
+}
+
+
+
+
+.error-message {
+  display: flex;
+  color: red;
+}
+
+input.error-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #fcfcfc;
+  border-radius: 10px;
+  color: #fcfcfc;
+}
+

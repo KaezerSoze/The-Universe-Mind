@@ -1,0 +1,55 @@
+// planet-form.scss
+
+.planet-form {
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+    h3 {
+
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+    }
+  
+    form {
+      display: flex;
+      flex-direction: column;
+  
+      div {
+        margin-bottom: 15px;
+  
+        label {
+            color: #ffffff;
+          font-size: 1.2rem;
+          font-weight: bold;
+          display: block;
+          margin-bottom: 5px;
+        }
+  
+        input {
+          background-color: #21247e86;
+          font-size: 1rem;
+          padding: 8px;
+          border: 1px solid #030bf1;
+          border-radius: 4px;
+          width: 100%;
+        }
+      }
+  
+      button {
+        width: 50%;
+        font-size: 1.2rem;
+        padding: 1px 5px;
+        background-color: #007bffae;
+        color: #ffffff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+  
+        &:hover {
+          background-color: #0056b3;
+        }
+      }
+    }
+  }
+  

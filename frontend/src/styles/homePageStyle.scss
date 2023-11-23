@@ -1,0 +1,46 @@
+.create-planet-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    p {
+      margin-top: 2rem;
+      font-size: 3rem;
+      color: rgba(207, 225, 240, 0.938);
+      transition: color 0.3s ease-in-out;
+    }
+  }
+  
+  .create-planet-link:hover p {
+    color: rgba(255, 255, 255, 0.938);
+    text-shadow: 0 0 10px rgba(149, 198, 240, 0.938);
+  }
+  
+
+
+
+
+  .home-page_select {
+    padding: 10px;
+    font-size: 1.2rem;
+    border: 1px solid #00000081;
+    border-radius: 5px;
+    background: linear-gradient(180deg, #000000 0%, #010425 40%, #020848 60%, #04046f 80%, #0d0d8a 100%);
+    color: #ffffffc3;
+    cursor: pointer;
+    outline: none;
+    transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    
+    &:hover {
+      border-color: #aaa;
+      background-color: #f2f2f2;
+    }
+    
+    &:focus {
+      border-color: #4285f4;
+      background-color: #fff;
+      box-shadow: 0 0 8px rgba(66, 133, 244, 0.6);
+    }
+    
+  }
+  

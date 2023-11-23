@@ -1,0 +1,43 @@
+.welcome-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #fff;
+  
+  button {
+     
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 10px 5px;
+    background: linear-gradient(180deg, #000000 0%, #010425 40%, #020848 60%, #04046f 80%, #0d0d8a 100%);
+    box-shadow: rgba(255, 255, 255, 0.989) 3px 5px 15px;
+    color: #ffffff;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+
+    &:hover {
+      background-color: #ffffff;
+    }
+  }
+}
+
+h1 {
+ 
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+}
+
+a {
+
+  text-decoration: none;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+
+
+

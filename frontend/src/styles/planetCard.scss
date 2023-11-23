@@ -1,0 +1,61 @@
+.planet-card {
+    background: linear-gradient(180deg, #000000 0%, #010425 40%, #020848 60%, #04046f 80%, #0d0d8a 100%);
+    color: rgba(0, 0, 0, 0.693);
+    text-align: center;
+    margin-top: 3rem;
+    min-height: 40px;
+    width: 50%;
+    border-radius: 50%;
+    box-shadow: rgba(255, 255, 255, 0.808) 0px 0px 15px;
+  
+
+
+@keyframes rotatePlanet {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+    p {
+        
+        font-size: 2rem;
+        color: rgb(244, 244, 244);
+    }
+
+    img {
+        height: 55px;
+        border-radius: 150em;
+        position: relative; /* Ajoutez une position relative au conteneur */
+        animation: rotatePlanet 10s linear infinite; /* Définissez l'animation de rotation */
+    }
+    button {
+     
+        width: 50%;
+        font-size: 0.7rem;
+        padding: 10px 5px;
+        background: linear-gradient(180deg, #000000 0%, #010425 40%, #020848 60%, #04046f 80%, #0d0d8a 100%);
+        box-shadow: rgba(255, 255, 255, 0.989) 3px 5px 15px;
+        color: #ffffff;
+        border: none;
+        border-radius: 40px;
+        cursor: pointer;
+        transition: background-color 0.5s ease;
+    
+        &:hover {
+          background-color: #ffffff;
+        }
+      }
+}
+
+
+  .home-page_ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+  }
+
+
+  

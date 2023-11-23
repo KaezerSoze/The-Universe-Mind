@@ -1,0 +1,58 @@
+.navbar {
+  background: linear-gradient(180deg, #000000 0%, #010425 40%, #020848 60%, #04046f 80%, #0d0d8a 100%);
+  box-shadow: 0 1px 1px 1px rgb(89, 87, 87);
+  width: 100%;
+  border-radius: 0px 0 25px 25px;
+  
+  ul {
+    padding-block: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+   
+    li {
+      h2, a {
+        font-size: 2.5rem;
+        display: flex;
+        align-content: center;
+      }
+    }
+    h2 span {
+      color: rgba(255, 255, 255, 0.817);
+      animation: textAnimation 3s infinite;
+    }
+
+    @keyframes textAnimation {
+      0% {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      50% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      100% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+    }
+  }
+
+  /* Style du bouton de déconnexion */
+  button {
+   
+    display: flex;
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgba(241, 241, 241, 0);
+    padding: 8px 16px;
+    border-radius: 4px 4px 4px 25px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background: linear-gradient(180deg, #000000 0%, #010425 40%, #020848 60%, #04046f 80%, #0d0d8a 100%);
+    color: rgb(255, 255, 255);
+  }
+}

@@ -1,0 +1,74 @@
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
+ 
+}
+
+.Form-container {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  margin-top: 6rem;
+  background-color: #333; /* Couleur de fond de la "carte" */
+  border-radius: 10px; /* Coins arrondis pour la "carte" */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre pour la "carte" */
+  padding: 20px; /* Espacement interne de la "carte" */
+  width: 300px; /* Largeur de la "carte" */
+}
+
+.Form-container h2.login {
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.Form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Form-container .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.Form-container button.button {
+  /* Vos styles de bouton existants */
+}
+
+.error-message {
+  display: flex;
+  color: red;
+}
+
+input.error-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 100%;
+  padding: 10px; /* Ajustez la taille du padding selon vos préférences */
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+.button {
+  width: 100%;
+  background-color: #0022ffc9; /* Couleur de fond rouge */
+  color: #ffffff; /* Couleur du texte en blanc */
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 10px 10px;
+  transition: background-color 0.2s; /* Transition pour l'effet de hover */
+
+  &:hover {
+    background-color: #3633ff; /* Couleur de fond rouge légèrement plus claire au survol */
+  }
+}
